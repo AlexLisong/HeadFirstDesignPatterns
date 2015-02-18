@@ -30,7 +30,7 @@ namespace HeadFirstDesignPatterns.DeveloperTests.Strategy.Football
 
         {
 
-            Guard pullingGuard = new Guard();
+            var pullingGuard = new HeadFirstDesignPatterns.Strategy.Football.Guard();
 
             Assert.AreEqual("I am pulling to block",pullingGuard.Pattern());
 
